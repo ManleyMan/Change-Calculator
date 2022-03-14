@@ -6,7 +6,8 @@
     "repository": {},
     "license": "mit",
     "scripts": {
-        "start": "node server/index.js",
+        "start": "npm run build && node server/index.js",
+        "build": "",
         "test": "mocha --exit"
     },
     "devDependencies": {
