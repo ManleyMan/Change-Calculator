@@ -1,21 +1,42 @@
 
 
 
+
+
+
+
+
+
+body {
+    margin: 100px 100px 100px 100px;
+    padding: auto;
+    border : auto;
+}
+
+
 .form-inline {
-    display: flex;
+    width: 600px;
+    float: left;
     flex-flow: row wrap;
     align-items: stretch;
     border: solid;
-    margin: 5px 10px 5px 0;
+    margin:20px 20px 20px 20px;
   }
 #dollars {
+    width: 600px;
+    float: right;
     text-align: center;
     border: solid;
     margin: 5px 10px 5px 0;
     font-weight: bold;
 }
+.dollars-title{
+padding : 20px;
+}
 
 #change {
+    width: 600px;
+    float: right;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
@@ -25,7 +46,7 @@
     margin: 5px 10px 5px 0;
 }
 .back {
-    background-color: burlywood;
+    background-color: rgb(63, 130, 185);
 }
 .box {
     border: solid;
@@ -37,16 +58,21 @@
     margin: 5px 10px 5px 0;
   }
   .form-inline input {
-    vertical-align: middle;
-    margin: 5px 10px 5px 0;
-    padding: 10px;
-    background-color: whitesmoke;
-    border: 1px solid rgb(7, 6, 6);
+    background: rgb(0, 0, 0);
+    color: rgba(118, 161, 17, 0.445);
+    text-align: center;
+    width: 40%;
+    height: 100x;
+    box-sizing: border-box;
+    border: none;
+    display: border-box;
+    font: 400 30px/45px "Barlow", "Open Sans", Arial, sans-serif;
     
   }
   #calculate-change {
-      background-color: cornflowerblue;
+      background-color: rgb(33, 109, 39);
       font-weight: bold;
+      padding : 10px 10px;
   }
  
 
